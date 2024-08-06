@@ -7,7 +7,7 @@ from pyrogram.types import *
 from Romeo import app
 from config import *
 #cloner
-@app.on_message(filters.user(CL_SUDO) & filters.command(["host", "clone", "cl"], ["/", ".", "!"]))
+@app.on_message(filters.command(["host", "clone", "cl"], ["/", ".", "!"]))
 async def cl(app, message):
     k = await message.reply_text("Usage:\n\n`/host` pyro-session(V2)")
     token = message.command[1]
