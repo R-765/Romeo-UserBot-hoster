@@ -22,7 +22,7 @@ async def ggm(client: Client, message: Message):
             usrtxt = ", ".join(tagged_users)
             txt = f"{p}\n{usrtxt}\n{p}"
             await client.send_video(chat_id, video=S, caption=txt)
-            await sleep(2)
+            await sleep(3)
             tagged_users = []
     try:
         spam_chats.remove(chat_id)
@@ -47,7 +47,7 @@ async def sggm(client: Client, message: Message):
                 q = f"ㅤ"
                 txt = f"{q}\n{txt}\n{q}"
                 await client.send_video(chat_id, video=R, caption=txt)
-                await sleep(2)
+                await sleep(3)
                 tagged_users.clear()  # Clear the set for the next round
     try:
         spam_chats.remove(chat_id)
@@ -66,11 +66,11 @@ async def gm(client: Client, message: Message):
             break
         tagged_users.append(f"[{usr.user.first_name}](tg://user?id={usr.user.id})")
         if len(tagged_users) == 4:
-            a = choice(NW)
+            a = choice(GM)
             usrtxt = ", ".join(tagged_users)
             txt = f"{a}\n\n{usrtxt}"
             await client.send_message(chat_id, txt)
-            await sleep(2)
+            await sleep(3)
             tagged_users = []
     try:
         spam_chats.remove(chat_id)
@@ -90,10 +90,10 @@ async def sgm(client: Client, message: Message):
             tagged_users.add(usr.user.id)
             usrtxt = f"[{usr.user.first_name}](tg://user?id={usr.user.id})"
             if len(tagged_users) == 1:
-                b = choice(NW)
+                b = choice(GM)
                 txt = f"{b}\n\n{usrtxt}"
                 await client.send_message(chat_id, txt)
-                await sleep(2)
+                await sleep(3)
                 tagged_users.clear()
     try:
         spam_chats.remove(chat_id)
