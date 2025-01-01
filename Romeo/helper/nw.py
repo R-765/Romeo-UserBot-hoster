@@ -1,5 +1,5 @@
 
-NYW = [
+NW = [
     "Happy New Year 2025! Tumhara life waise hi full of drama ho jitna tumhare WhatsApp group! 😂🎬📱",
     "Naya Saal 2025! Tumhara 2025 utna epic ho jitna tumhare memes ka content! 📱🔥🤣",
     "Happy New Year 2025! Tumhara diet plan waise hi confusing ho jitna tumhara phone ka storage! 📱🍔😜",
