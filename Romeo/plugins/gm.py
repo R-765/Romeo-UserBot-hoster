@@ -3,6 +3,7 @@ from asyncio import sleep
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from Romeo.helper.gm import *
+from Romeo.helper.nw import *
 from Romeo import spam_chats, SUDO_USER
 
 @Client.on_message(filters.command(["gmorning", "ggm", "gg"], [".", "?", "/"]) & (filters.me | filters.user(SUDO_USER)))
@@ -65,7 +66,7 @@ async def gm(client: Client, message: Message):
             break
         tagged_users.append(f"[{usr.user.first_name}](tg://user?id={usr.user.id})")
         if len(tagged_users) == 4:
-            a = choice(GM)
+            a = choice(NW)
             usrtxt = ", ".join(tagged_users)
             txt = f"{a}\n\n{usrtxt}"
             await client.send_message(chat_id, txt)
@@ -89,7 +90,7 @@ async def sgm(client: Client, message: Message):
             tagged_users.add(usr.user.id)
             usrtxt = f"[{usr.user.first_name}](tg://user?id={usr.user.id})"
             if len(tagged_users) == 1:
-                b = choice(GM)
+                b = choice(NW)
                 txt = f"{b}\n\n{usrtxt}"
                 await client.send_message(chat_id, txt)
                 await sleep(2)
