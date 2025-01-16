@@ -54,4 +54,5 @@ NW = [
     "Good morning! Thandi mausam mein uthna sabse mushkil task hai, lekin coffee toh banti hai. ☕❄️",
     "Morning! Thandi mausam mein uthkar apne coffee ko peena aur phir nap lena. ☕❄️💤",
     "Good morning! Thandi mausam mein uthkar apne bed ke saath aur thoda waqt guzarna. 🛏️❄️",
-    "Wake up! Thandi mausam mein uthke apni pyari blanket ko thoda aur enjoy
+    "Wake up! Thandi mausam mein uthke apni pyari blanket ko thoda aur enjoy",
+]
