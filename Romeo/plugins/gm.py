@@ -66,7 +66,7 @@ async def gm(client: Client, message: Message):
             break
         tagged_users.append(f"[{usr.user.first_name}](tg://user?id={usr.user.id})")
         if len(tagged_users) == 4:
-            a = choice(NW)
+            a = choice(GM)
             usrtxt = ", ".join(tagged_users)
             txt = f"{a}\n\n{usrtxt}"
             await client.send_message(chat_id, txt)
@@ -90,7 +90,7 @@ async def sgm(client: Client, message: Message):
             tagged_users.add(usr.user.id)
             usrtxt = f"[{usr.user.first_name}](tg://user?id={usr.user.id})"
             if len(tagged_users) == 1:
-                b = choice(NW)
+                b = choice(GM)
                 txt = f"{b}\n\n{usrtxt}"
                 await client.send_message(chat_id, txt)
                 await sleep(3)
