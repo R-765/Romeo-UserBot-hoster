@@ -1,4 +1,4 @@
-NW2 = [
+NW = [
     "Good morning, doston! 🌞 Uth jao, coffee ka time hai! ☕ Kya plan hai aaj? 😂",
     "Morning, yaar! 🌄 Tumhare din ki shuruaat itni achi ho jitna tumhara mood! 😜",
     "Good morning! 🌸 Tum uth ke duniya ko rock karne wale ho… ya sirf bed pe rehne wale ho! 🛏️",
