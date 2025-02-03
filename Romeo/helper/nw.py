@@ -1,4 +1,4 @@
-NW = [
+NW2 = [
     "Good Morning doston! 🌞 Aaj ka din tumhara hai! 😊",
     "Utho aur shine karo! 🌅 Aaj ko amazing banao! 💪",
     "Good morning! 💫 Hamesha muskurate raho aur positive vibes spread karo! 😊",
@@ -78,7 +78,7 @@ NW = [
 ]
 
 
-NW2 = [
+NW = [
     "Happy Vasant Panchami! Aapki zindagi mein khushiyan aur gyaan aaye. 🌼🎉",
     "Goddess Saraswati se dua hai ki aapko hamesha gyaan aur safalta mile. 📚🙏",
     "Vasant Panchami ki hardik shubhkamnaayein aapko aur aapke parivaar ko! 🌸🌿",
